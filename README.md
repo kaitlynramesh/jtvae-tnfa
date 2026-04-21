@@ -1,5 +1,7 @@
 # JT-VAE for TNF-alpha Binder Generation
 
+CBB 5801 Proteomics / Protein Modeling Group Project
+
 We use the [mol_opt](https://github.com/wenhao-gao/mol_opt) implementation of Junction Tree Variational Autoencoder (JT-VAE) to generate small-molecule binder candidates for TNF-alpha. This version of JT-VAE is pretrained on the ZINC-250K database, so we refine this model on known TNF-alpha binders from BindingDB.
 
 ## Set up environment
@@ -36,5 +38,6 @@ score_components(<SMILES string>)
 The candidate sequences of interest for analysis with molecular docking are filtered based on novelty (Tanimoto similarity <= 0.4)
 
 ## References
+- Claude Code 3.5 Sonnet
 - **JT-VAE**: Jin et al., "Junction Tree Variational Autoencoder for Molecular Graph Generation," ICML 2018. [arXiv:1802.04364](https://arxiv.org/abs/1802.04364)
 - **mol_opt benchmark**: Gao et al., "Sample Efficiency Matters: A Benchmark for Practical Molecular Optimization," NeurIPS 2022. [GitHub](https://github.com/wenhao-gao/mol_opt)

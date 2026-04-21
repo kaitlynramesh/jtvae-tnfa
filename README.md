@@ -13,7 +13,7 @@ The earlier version of JT-VAE in mol_opt uses GPU, but this implementation is on
 
 ## Overview
 ```
-conda activate molopt
+conda activate jtvae-tnfa
 python prepare_data.py 
 python run_jtvae_tnfa.py --n_iters 20 --bo_batch 10 --n_seed 50 --seed 42
 # n_seed = number of "seed" molecules taken from known binders

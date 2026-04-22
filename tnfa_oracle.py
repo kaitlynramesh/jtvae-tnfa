@@ -46,7 +46,7 @@ def _get_reference():
     return _REF_FPS, _REF_WEIGHTS
 
 
-NOVELTY_THRESHOLD = 0.4  # Tanimoto cutoff: max_sim < threshold → novel
+NOVELTY_THRESHOLD = 0.7  # Tanimoto cutoff: max_sim < threshold → novel
 
 
 def score_components(smiles: str) -> dict:
@@ -56,7 +56,7 @@ def score_components(smiles: str) -> dict:
       weighted_sim  — affinity-weighted Tanimoto to top-5 reference binders (0-1)
       max_sim       — raw max Tanimoto to any reference binder (0-1)
       novelty       — 1 - max_sim; higher = more structurally distinct (0-1)
-      is_novel      — 1 if max_sim < NOVELTY_THRESHOLD (0.4), else 0
+      is_novel      — 1 if max_sim < NOVELTY_THRESHOLD (0.7), else 0
       qed           — RDKit QED drug-likeness (0-1)
       final         — combined oracle score: 0.7*weighted_sim + 0.3*qed (0-1)
     """

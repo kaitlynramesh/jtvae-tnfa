@@ -41,3 +41,6 @@ The candidate sequences of interest for analysis with molecular docking are filt
 - Claude Code 3.5 Sonnet
 - **JT-VAE**: Jin et al., "Junction Tree Variational Autoencoder for Molecular Graph Generation," ICML 2018. [arXiv:1802.04364](https://arxiv.org/abs/1802.04364)
 - **mol_opt benchmark**: Gao et al., "Sample Efficiency Matters: A Benchmark for Practical Molecular Optimization," NeurIPS 2022. [GitHub](https://github.com/wenhao-gao/mol_opt)
+- **AutoDock Vina (original)**: Trott & Olson, "AutoDock Vina: Improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading," J. Comput. Chem. 2010, 31(2):455-461. DOI
+- **AutoDock Vina**: Eberhardt et al., "AutoDock Vina 1.2.0: New Docking Methods, Expanded Force Field, and Python Bindings," J. Chem. Inf. Model. 2021, 61(8):3891-3898. DOI
+  

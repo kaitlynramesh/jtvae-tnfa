@@ -1,0 +1,1 @@
+Native ligand Vina score: -8.328

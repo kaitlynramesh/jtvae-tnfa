@@ -1,0 +1,6 @@
+rank,smiles,vina_score,time_sec
+1,COc1ccc2CN(C[C@]3(NC(=O)NC3=O)C#Cc3cncc(c3)-c3cn[nH]c3)C(=O)c2c1 |r|,-8.031,8.063482761383057
+2,COc1ccc2CN(C[C@]3(NC(=O)NC3=O)C#Cc3cc(F)c4c(c3)[nH][nH]c4=O)C(=O)c2c1F |r|,-8.748,8.372696876525879
+3,COc1ccc2CN(C[C@]3(NC(=O)NC3=O)C#Cc3cc(F)c4c(c3)[nH][nH]c4=O)C(=O)c2c1 |r|,-8.309,7.2309980392456055
+4,COc1ccc2CN(C[C@]3(NC(=O)NC3=O)C#Cc3ccc(cc3)-c3nc(ccc3O)-c3cnn(C)c3)C(=O)c2c1 |r|,-7.78,16.59797191619873
+5,COc1ccc2CN(C[C@]3(NC(=O)NC3=O)C#Cc3ccc(cc3)-c3nc(ccc3O)-c3ccncc3)C(=O)c2c1 |r|,-8.819,16.040637969970703

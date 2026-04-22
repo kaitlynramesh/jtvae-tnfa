@@ -1,0 +1,11 @@
+ligand_id,ligand_file,smiles,vina_score,time_sec
+0,ligand_0.pdbqt,CCC1CCC(=O)N(C(=O)COC(=O)c2cccc(C)c2)C1,-7.084,3.136845111846924
+1,ligand_1.pdbqt,CCCN1CCN(C(=O)c2ccc(CNC(=O)c3c(C)[nH]c(=O)n(C)c3=O)cc2)CC1,-7.888,6.1401190757751465
+2,ligand_2.pdbqt,CCOc1ccc(OC)c(CN2N=C(c3cc(C(=O)N4CCN(CC)CC4)ccc3C)CC2=O)c1,-8.821,8.844260931015015
+3,ligand_3.pdbqt,Cc1oc2ccccc2c(=O)c1C=Cc1cccc(C(=O)N2CCCC2)c1,-9.349,3.6232950687408447
+4,ligand_4.pdbqt,COCC1=CNC(=O)C1=NC(=O)Cc1cccc(N2C(=O)c3ccc(OC)cc3C2=O)c1,-8.583,8.313097953796387
+5,ligand_5.pdbqt,COCN(C(=O)Cc1ccc(C)cc1)C(=O)c1ccc(C)c(F)c1,-6.694,4.209765195846558
+6,ligand_6.pdbqt,CCn1nc(C)c(C=C(C#N)c2cccc(OC)c2)c1OC,-6.991,3.419940233230591
+7,ligand_7.pdbqt,COc1cccc(C2c3c(cc(F)c4c3CCCO4)C(=O)N2CCC[NH+]2CCOCC2)c1,-7.959,6.016319036483765
+8,ligand_8.pdbqt,Cc1ncc(CN2C(=O)c3ccc(C(=O)N4CCCC4)cc3C2=O)nc1OCC(=O)N1CCCC1,-8.094,8.68927788734436
+9,ligand_9.pdbqt,COc1cccc(C2=C(N3CCN(C(=O)Oc4cc5c(cc4F)OC(C)(C)O5)CC3)C(=O)NC2)c1,-8.259,7.5731587409973145

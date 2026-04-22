@@ -140,7 +140,8 @@ If RDKit cannot parse a SMILES string, the ligand is skipped.
   - `n_poses = 10` generated
   - top `n_poses = 5` written to disk
 - Reported score:
-  - best-pose energy from `v.energies(n_poses=1)[0][0]` (kcal/mol; more negative is better)
+  - best-pose energy from `v.energies(n_poses=1)[0][0]` (kcal/mol; more negative is better, Phillips, R., Kondev, J., Theriot, J., & Orme, N. (2013). Entropy Rules! *Physical Biology of the Cell* (241-244). Garland Science. https://books.google.com/books?id=JnyPZwEACAAJ)
+
 
 ---
 
